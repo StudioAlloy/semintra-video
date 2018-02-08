@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semintra Video</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/manifest.json">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#40c4dd">
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+	<meta name="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+	.videoWrapper {
+	    position: relative;
+	    padding-bottom: 54.3%; /* 16:9 */
+	    padding-top: 25px;
+	    height: 0;
+	}
+	.videoWrapper iframe {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	.video{
+		max-width: 1280px;
+		padding: 0 25px;
+		margin: 10vh auto 0;
+	}
+	body{
+		background-color: #73CFDD;
+	}
+	.logo{
+		position: fixed;
+		pointer-events: none;
+		left: 0;
+		top: 0;
+		z-index: 999;
+	}
+	.logo img{
+		max-width: 450px;
+	}
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<img src="imgs/logo_semintra.png" alt="Semintra" />
+	</div>
+	<div class="video">
+		<div class="videoWrapper">
+		    <iframe src="https://player.vimeo.com/video/200170795?color=4CD1DE&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+	</div>
+</body>
+</html>
